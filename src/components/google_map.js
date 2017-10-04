@@ -1,4 +1,4 @@
-import React, { Comopenent } from 'react';
+import React, { Component } from 'react';
 
 class GoogleMap extends Component{
 
@@ -9,13 +9,13 @@ class GoogleMap extends Component{
                 lat: this.props.lat,
                 lng: this.props.lon
             }
-        })
+        });
       
     }
     
 
     render(){
-        return <div ref='map'/>
+        return <div ref='map'/>;
     }
 
 }
